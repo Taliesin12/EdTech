@@ -1,6 +1,14 @@
-h2 {color: red;
-  height: 5em;}
+h2 {color: red;}
 
 
+header {display: flex;
+  flex-direction: row;
+  height: 6em;
+  justify-content: space-between;
+  background-color: lightblue;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;}
 
-  
+  .headleft img {height: 5em;}
