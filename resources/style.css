@@ -19,7 +19,12 @@ body{display: flex;
 
 /*Homepage*/
 
-.homebox{}
+.homebox{display: flex;
+  flex-direction: column;
+  width: 80%;
+  border: 2px black solid;
+  justify-content: center;
+  align-items: center;}
 
 .box{display: flex;
   flex-direction: column;
@@ -31,15 +36,19 @@ body{display: flex;
   .boxguts{display: flex;
     flex-direction: row;
     border: solid blue 3px;
-    }
+    width:100%;
+    height: 18em;}
 
 
   .boxleft{width: 35%;
     margin: 1em;
     border: solid green 3px;}
-  .boxright{width:60%;
+  .boxright{display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:60%;
     margin: 1em;
     border: solid purple 3px;}
 
-  .boxnode{height: 40%;
+  .boxnode{height: 45%;
     background-color: khaki;}
