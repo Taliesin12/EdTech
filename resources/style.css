@@ -17,6 +17,10 @@ body{display: flex;
   flex-direction: column;
   align-items: center;}
 
+/*Homepage*/
+
+.homebox{}
+
 .box{display: flex;
   flex-direction: column;
   width: 80%;
