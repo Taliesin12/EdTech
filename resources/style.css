@@ -42,7 +42,13 @@ body{display: flex;
 
   .boxleft{width: 35%;
     margin: 1em;
-    border: solid green 3px;}
+    border: solid green 3px;
+    }
+
+    .boxleft img{object-fit: cover;
+      width: 100%;
+      height: 100%;}
+
   .boxright{display: flex;
     flex-direction: column;
     justify-content: space-between;
