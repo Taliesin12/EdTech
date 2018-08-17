@@ -12,9 +12,9 @@
     <div class="headright">
       <nav>
         <a href="index.html">Home</a>
-        <a href="EdTechPotential.html">The Potential of EdTech</a>
-        <a href="EdTechHoldup.html">What is holding back EdTech</a>
-        <a href="EdTechSolution.html">How to unshackle EdTech's Potential</a>
+        <a href="EdTechPotential.html">Potential</a>
+        <a href="EdTechHoldup.html">Holdup</a>
+        <a href="EdTechSolution.html">Unshackle</a>
         <a href="why.html">Why will this work?</a>
 
       </nav>
@@ -27,12 +27,53 @@
     </div>
   </header>
   <body>
-    <h1>Welcome to </h1>
-    <h1>The point of this website is to adequately communicate why we need to use a new method of measureing students knowledge. And how to get one to actually be implemented in todays society.</h1>
-    <h2>When ever we go from one organization to another there is an interface. from one school to another school because the family moved. from High School to University or trade school. From University or trade school to company. All of these have had one organization tell the other organization where the individual in question is in their understanding and skills. Because of the complex nature of this undertaking and the number of individuals involved these have had to rely on simple standards that can be easily understood and compared. This has proven to have drawbacks but we accepted it at first because it was the best we could do, then because it would be to dificult to change, than because it had so much time behind it that no one questioned it.</h2>
-    <h2>We have two ways to view the solutions and supporting arguments.</h2>
-    <h3>One is to look at it as the potential that Educational technology has for our current issues.</h3>
-    <h3>The other is to look at it in terms of where the education system has been, where it is now, and where it should be in the future.</h3>
+    <div class="">
+      <h1>Welcome to </h1>
+      <h1>The point of this website is to adequately communicate why we need to use a new method of measureing students knowledge. And how to get one to actually be implemented in todays society.</h1>
+      <h2>When ever we go from one organization to another there is an interface. from one school to another school because the family moved. from High School to University or trade school. From University or trade school to company. All of these have had one organization tell the other organization where the individual in question is in their understanding and skills. Because of the complex nature of this undertaking and the number of individuals involved these have had to rely on simple standards that can be easily understood and compared. This has proven to have drawbacks but we accepted it at first because it was the best we could do, then because it would be to dificult to change, than because it had so much time behind it that no one questioned it.</h2>
+      <h2>We have two ways to view the solutions and supporting arguments.</h2>
+      <h3>One is to look at it as the potential that Educational technology has for our current issues.</h3>
+      <h3>The other is to look at it in terms of where the education system has been, where it is now, and where it should be in the future.</h3>
+
+    </div>
+
+
+      <div class="slideshow" >
+        <div class="myslides">
+          <img  src="./resources/images/board-game-challenge-checkmate-51055.jpg" >
+          <h3>Michael Crow</h3>
+        </div>
+        <div class="myslides">
+          <img src="./resources/images/tempe-campus.jpg" >
+          <h3>Clayton Christiansen</h3>
+        </div>
+        <div class="myslides">
+          <img src="./resources/images/Editedcolor.png" >
+          <h3>Sal Khan</h3>
+        </div>
+
+
+      <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("myslides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 4000); // Change image every 2 seconds
+        }
+      </script>
+
+
+
+    </div>
+
     <div class="homebox">
       <h2>The Potential of Educational Technology</h2>
       <div class="boxguts">
