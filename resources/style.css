@@ -108,9 +108,10 @@ body{display: flex;
 
 .hoverbox{width: 100%;
   color: white;
-  height: 30em;
+  height: 20em;
   font-family: Exo;
   padding: 3em;
+
   }
 
   .hoverbox h4{display: none;}
